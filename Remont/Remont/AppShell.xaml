@@ -84,6 +84,12 @@
     <FlyoutItem Title="Заказы" Icon="icon_feed.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
+    <FlyoutItem Title="Мониторинг" Icon="icon_feed.png">
+        <ShellContent Route="DataPage" ContentTemplate="{DataTemplate local:DataPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="База данных" Icon="icon_feed.png">
+        <ShellContent Route="DataPage" ContentTemplate="{DataTemplate local:FriendPage}" />
+    </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem Text="Выйти" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
